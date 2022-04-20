@@ -29,6 +29,17 @@
  * 2. app.use(express.json())
  * 
  */
+/**
+ * 1. for nodemon install: npm install -g nodemon
+ * or ..You can also install nodemon as a development dependency:
+        npm install --save-dev nodemon
+ * 2.write this json code in package.json:
+     "start": "node index.js",
+     "start-dev": "nodemon index.js",
+ * 
+ * 
+ * 
+ */
 
 /**
  * fetch(url, {
