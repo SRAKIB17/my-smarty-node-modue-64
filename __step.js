@@ -1,4 +1,4 @@
-/**
+/** Basic server setup
  * 1. create folder (manually or mkdir)
  * 2. open command line to that folder
  * 3. $ npm init 
@@ -15,4 +15,27 @@
  * 5. listen to port => app.listen(port,()=>{})
  * 6. node index.js => run command line
  * 7. check your browser for that port => localhost:port
+ * _________________________
+ * for get fetch:
+ * ----------------------
+ * 1.  npm install cors
+ * 2. cosnt cors = require('cors')
+ * 3. app.use(cors())
+ * 
+ * _______________________________
+ * for fetch post..
+ * -------------------------------
+ * 1. app.post('path',()=>{req.body})
+ * 2. app.use(express.json())
+ * 
+ */
+
+/**
+ * fetch(url, {
+ *      mathod: 'POST',
+ *      headers: {
+ *               'content-type': 'application/json'
+ *              },
+ *      body: JSON.stringify(user)
+ *   })
  */
